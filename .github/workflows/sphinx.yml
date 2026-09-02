@@ -17,6 +17,8 @@ jobs:
         with:
           # On indique à Sphinx que le dossier source est 'docs/source'
           docs-folder: "docs/source"
+          # Installe les dépendances listées dans docs/source/requirements.txt avant la compilation
+          pre-build-command: "pip install -r docs/requirements.txt"
           build-command: "sphinx-build -b html . _build/html"
 
       - name: Upload artifacts
