@@ -1,2 +1,2 @@
 sphinx
-furo
+furo==2021.11.16
