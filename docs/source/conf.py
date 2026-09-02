@@ -13,8 +13,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 
 project = 'Lumache'
-copyright = '2026, Graziella'
-author = 'Graziella'
+copyright = '2026, Ndouassi'
+author = 'Chris Ndouassi'
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
